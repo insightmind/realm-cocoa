@@ -40,11 +40,13 @@ let package = Package(
         .target(
             name: "Realm",
             dependencies: [],
+            path: "Realm",
             exclude: realmTargetExclude
         ),
         .target(
             name: "RealmSwift",
             dependencies: ["Realm"],
+            path: "RealmSwift",
             exclude: [
                 "Tests",
             ]
