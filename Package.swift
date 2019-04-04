@@ -16,7 +16,7 @@ let package = Package(
 	        .target(
 	            name: "RealmSwift",
 	            dependencies: ["Realm"],
-		    path: "RealmSwift"
+		    path: "RealmSwift",
 	            exclude: [
 	                "Tests",
 	            ]
